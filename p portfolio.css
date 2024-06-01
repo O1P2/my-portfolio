@@ -1,0 +1,139 @@
+body{
+    background-image: url(./istockphoto-1634050535-170667a.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#general{
+    display: flex;
+    float: right;
+    list-style: none;
+    text-align: right;
+    gap: 10px;
+    margin-right: 100px;
+}
+#general,a{
+    text-decoration: none;
+    color: rgb(0, 255, 30);
+
+}
+.image1{
+    height: 400px;
+    width: 400px;
+    border-radius: 200px;
+    margin-left: 440px;
+    margin-top:100px;
+}
+#total{
+    display: flex;
+    margin-left: 300px;
+    font-size: 40px;
+    
+}   
+.menubar{
+    display: none;
+}
+#word1{
+    margin-left: 70px;
+    color: rgb(0, 255, 30);
+    margin-top: 40px;
+}
+#footer{
+    margin-top: 300px;
+}
+#head1{
+    color: rgb(196, 255, 224);
+}
+#footer{
+    border: 1px solid black;
+    width: 1300;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#nav{
+    display: flex;
+    gap: 10px;
+}
+@media (max-width:700px){
+    body{
+        background-size:cover ;
+        margin-left: 0;
+        padding: 0;
+    }
+    html{
+        font-size: 55%;
+    }
+    
+#general{
+    list-style: none;
+    gap: 10px;
+    margin-right: 30px;
+    display: none;
+}
+#general,a{
+    text-decoration: none;
+    color: rgb(0, 255, 30);
+
+}
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.image1{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-left: 85px;
+    margin-top:70px;
+
+}
+#total{
+    display: flex;
+    margin-left: 85px;
+    font-size: 20px;
+    margin-top: 20px;
+
+    
+}   
+
+#head1{
+    color: rgb(196, 255, 224);
+    flex-direction: row;
+    display: flex;
+    font-size: 10px;
+}
+#word1{
+    margin-left: 0px;
+    color: rgb(0, 255, 30);
+    margin-top: 0px;
+    padding: 0;
+}
+#footer{
+    margin-top: 300px;
+}
+#head1{
+    color: rgb(196, 255, 224);
+}
+#footer{
+    border: 1px solid black;
+    width: 60;
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 510px;
+}
+.menubar{
+    display: block;
+    height: 40px;
+    width: 40px;
+    margin-left: 280px;
+    margin-top: 0;
+}
+#slide{
+    display: flex;
+}
+}
